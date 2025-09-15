@@ -23,11 +23,25 @@ body{
     text-align: center;
 }
 
-h1{
+.Title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
     background-color: var(--green-colour);
     padding: 1rem;
     border-radius: 0.75rem;
     box-shadow: 0.3rem 0.3rem var(--navy-colour);
+}
+
+.HeyHottie{
+    max-width: 5rem;
+    min-width: 5rem;
+    max-height: 5rem;
+    min-height: 5rem;
+    background-color: var(--saffron-colour);
+    border-radius: 0.75rem;
 }
 
 .hero{
@@ -47,7 +61,7 @@ strong{
     color: var(--saffron-colour);
 }
 
-img{
+.RedNose{
     max-width: 20vw;
     min-width: 20vw;
     border-radius: 20px;
