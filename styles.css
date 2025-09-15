@@ -21,6 +21,7 @@ body{
     justify-content: center;
     font-size: 0.7rem;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .Title{
@@ -66,4 +67,15 @@ strong{
     min-width: 20vw;
     border-radius: 20px;
     box-shadow: 5px 5px black;
+}
+
+@media(max-width: 462px) {
+    body{
+        gap: 1rem;
+    }
+
+    .RedNose{
+        max-width: 70vw;
+        min-width: 70vw;
+    }
 }
